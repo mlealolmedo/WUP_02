@@ -44,6 +44,12 @@ The c52 gives out more vitamin C than the c39 does, we can prove this by looking
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+This chart, shows us that the mean of the C39 is 51.5 and the mean of the C52 is 64.4, so the C39 is a smaller value than the C52.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
